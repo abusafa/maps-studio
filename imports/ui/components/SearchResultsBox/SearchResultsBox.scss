@@ -1,0 +1,78 @@
+.container
+{
+  position: relative;
+  animation-duration: 200ms;
+  width: 100%;
+  margin: 0px;
+  height: 100%;
+  border-radius: 0;
+  z-index: 888;
+
+
+}
+.content
+{
+  position: relative;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px;
+  height: 100%;
+  padding: 20px;
+  top:30%;
+}
+
+.backgroundShadow{
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  .container
+  {
+    width: 400px;
+    margin: 10px;
+    top:0%;
+  }
+
+  .content{
+    top:0%;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .container
+  {
+
+  }
+
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+
+
+
+
+@media print{
+  .container
+  {
+    display: none;
+  }
+}

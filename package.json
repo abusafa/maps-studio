@@ -1,0 +1,32 @@
+{
+  "name": "maps-studio",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "bigscreen": "^2.0.5",
+    "bulma": "0.0.24",
+    "classnames": "^2.2.5",
+    "lodash": "^4.12.0",
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.0.2",
+    "react-addons-pure-render-mixin": "^15.0.2",
+    "react-custom-scrollbars": "^4.0.0-beta.1",
+    "react-dom": "^15.0.2",
+    "react-router": "^2.4.0",
+    "react-tap-event-plugin": "^1.0.0",
+    "react-tooltip": "^2.0.2",
+    "screenfull": "^3.0.0"
+  },
+  "cssModules": {
+    "extensions": [
+      "scss"
+    ]
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
