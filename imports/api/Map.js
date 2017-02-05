@@ -69,7 +69,7 @@ export default class Map {
     each(basemaps, (map)=>{
       switch(map.type){
         case "tileLayer":
-        this.basemaps[map.id] = L.tileLayer(map.url, map.options);
+        this.basemaps[map.id] = L.tileLayer(map.url.replace('94.97.103.124',window.location.hostname), map.options);
         break;
 
         case "mapbox.tileLayer" :
